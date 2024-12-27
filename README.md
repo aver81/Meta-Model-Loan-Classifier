@@ -1,2 +1,4 @@
 # Meta-Model-Loan-Classifier
 This repository contains all codes and details related to the development of a meta-model for loan classification, which combines the use of two standalone ML models controlled by an independent decision making model to accurately predict loan defaulters.
+
+This notebook uses a Meta-Modeling approach to predict loan defaults by combining two machine learning models: CatBoost, which handles imbalanced data and general patterns, and One-Class SVM, which detects anomalies in high-risk applicants. A Random Forest meta-classifier integrates their predictions for better accuracy. Advanced feature engineering ensures clean, meaningful data, improving performance and interpretability. CatBoost focuses on overall trends, while One-Class SVM highlights defaulters. Together, this system helps loan providers reduce risks, avoid missed opportunities, and make smarter decisions.
